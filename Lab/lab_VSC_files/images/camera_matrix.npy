@@ -1,0 +1,7 @@
+import numpy as np
+
+camera_matrix = np.array([[1.40894054e+03 0.00000000e+00 6.21548603e+02]
+                            [0.00000000e+00 1.41419267e+03 4.36870727e+02]
+                            [0.00000000e+00 0.00000000e+00 1.00000000e+00]])
+
+np.save("camera_matrix.npy", camera_matrix)
