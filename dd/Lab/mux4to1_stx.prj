@@ -1,0 +1,2 @@
+verilog isim_temp "mux16to1.v"
+verilog isim_temp "C:/Xilinx/verilog/src/glbl.v"

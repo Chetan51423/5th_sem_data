@@ -1,0 +1,9 @@
+[Inputs]
+=in[3:0]=
+=sel[1:0]=
+[Outputs]
+out
+[BiDir]
+[ATTRIBUTES]
+VeriModel mux4to1
+

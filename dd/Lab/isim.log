@@ -1,0 +1,27 @@
+ command line:
+   ./tb_mux16to1_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  61096
+
+Fri Apr 07 13:34:25 2023
+
+Total Line Count = 82
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 74.2769 Meg. 
+
+ Total signals 28
+ Total nets 33
+ Total signal drivers 10
+ Total blocks 8
+ Total primitive blocks 6
+ Total processes 13
+ntrace select -o on -n /tb_mux16to1_v/out 
+ntrace select -o on -n /tb_mux16to1_v/sel 
+ntrace select -o on -n /tb_mux16to1_v/in 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

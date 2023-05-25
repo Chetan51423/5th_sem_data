@@ -1,0 +1,10 @@
+V3 9
+FL C:/Users/cheta/Downloads/TY_2nd_sem/DD/Lab/tb_mux16to1.v 2023/03/31.23:45:02 I.24
+MO isim_temp/tb_mux16to1_v \
+      FL C:/Users/cheta/Downloads/TY_2nd_sem/DD/Lab/tb_mux16to1.v MI mux16to1
+FL $XILINX/verilog/src/glbl.v 2005/11/16.16:04:44 I.24
+MO isim_temp/glbl       FL $XILINX/verilog/src/glbl.v
+FL C:/Users/cheta/Downloads/TY_2nd_sem/DD/Lab/mux16to1.v 2023/04/07.12:33:02 I.24
+MO isim_temp/mux16to1   FL C:/Users/cheta/Downloads/TY_2nd_sem/DD/Lab/mux16to1.v \
+      MI mux4to1
+MO isim_temp/mux4to1    FL C:/Users/cheta/Downloads/TY_2nd_sem/DD/Lab/mux16to1.v
