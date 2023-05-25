@@ -1,0 +1,18 @@
+#ESD lab
+
+LCD interfacing
+
+1) SEND COMMONDS TO LCD
+2) SEND DATA 'v' 'i''t'
+
+
+#LCD Initilization
+(lcd only reads only hexadecimal values)
+
+1) initilize LCD in 8 bit (38h) / 4 bit mode (28h) (when 8 pin are use / when 4 pin are selected )
+
+2) send line address    -- 80h by commond
+
+3) increment cursor by ---- 06h commond 
+
+4) display ON , cursor 

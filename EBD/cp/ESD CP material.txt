@@ -1,0 +1,4 @@
+ESD CP material
+
+1) smbus - library to read the sensor data
+2) evdev - library to simulate mouse movments on  laptop.

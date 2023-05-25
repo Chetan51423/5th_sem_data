@@ -1,0 +1,32 @@
+ESD cp material
+
+# you should know all features of ARM processor
+# advantages of ARM processor over other 
+# artitechtural difference between ARM and other IC
+# like power consumption of controller IC
+
+
+
+
+
+
+
+#MPU 6050
+
+1) 3 axis accelerometer
+2) 3 axis gyroscope
+3) onboard digital motion processor (DMP)
+   - it is based on MEMS 
+   - (micro electro mechanical system)
+   - MEMS changes the voltage as change in position 
+4) board uses I2C protocol
+5) on board voltage reulator
+
+
+
+5) 8 pin 
+  - VCC and GND
+  - SCL and SDA ( Serial data and serial clock---it is use by I2C module to control I2C bus lines)
+  - XDA nad XCL (auxilary serial pins)
+  - ADO  (Address select b/w auxilary and primary pins)
+  - int

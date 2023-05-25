@@ -1,0 +1,79 @@
+#include<lpc2148.h>
+#define LCD_port  0x00ff0000
+#define RS  1<<11
+#define RW  1<<20
+#define EN  1<<10
+#define LCD_shift 16
+
+void delay(int time)
+{
+  int i, j;
+  for(i=0; i<time; i++)
+  {
+     for(j=0; j<time; j++);
+  }
+}
+
+void LCD_strobe()
+{
+  delay(100);
+  IOSET0 = EN;
+  delay(100);
+  IOSET0 = EN;
+  delay(100);
+}
+
+void lcd_cmd(unsigned char ch)
+{
+  IOCLR1 = LCD_port;
+  delay(100);
+  IOSET1 = ch<<LCD_shift;
+  delay(100);
+  IOCLR0 = RS;
+  delay(100);
+  IOCLR0 = RW;
+  delay(100);
+  LCD_strobe();
+  delay(100);
+}
+
+void LCD_data(unsigned char ch)
+{
+   IOCLR1 = LCD_port;
+   IOSET0 = ch<<LCD_shift;
+   IOSET0 = RS;
+   IOCLR0 = RW;
+   LCD_strobe();
+}
+
+void LCD_init(void)
+{
+  PINSEL0 &=0Xff0fffff;
+  PINSEL1 &=0ffffffcff;
+  PINSEL2 &=0xfffffff3;
+  
+  IODIR0 |= RS | EN |RN;
+  IODIR1 |= LCD_port;
+  
+  lcd_cmd(0x38);
+  lcd_cmd(0x06);
+  lcd_cmd(0x0C);
+  lcd_cmd(0x01);
+  lcd_cmd(0x80);
+  
+}
+
+while(1)
+{
+    LCD_init(void);
+    lcd_cmd(ch);
+	LCD_data(V);
+	delay(100);
+	LCD_data(I);
+	delay(100);
+	LCD_data(T);
+	
+	
+	
+}
+
