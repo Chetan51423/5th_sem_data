@@ -1,0 +1,36 @@
+Preprocessing:
+
+Apply adaptive histogram equalization to improve the contrast and sharpness of the image if the intensity value is less than a threshold value.
+Convert the preprocessed image to binary using Otsu's method.
+Morphological and flood fill operations:
+Apply morphological operations and flood fill operation to extract the largest candidate object from the binary image.
+
+Edge detection:
+
+Detect edges using the canny operator.
+Elimination of vertical edges:
+Eliminate vertical edges using four connected method.
+
+Filtering small edges:
+
+Filter out small edges using statistical threshold procedure.
+Estimation of potential longest horizontal edges:
+Estimate potential longest horizontal edges from the remaining edges.
+
+
+Hough transform:
+
+
+Apply Hough transform to detect potential parallel horizontal edges and draw Hough lines.
+
+ROI detection:
+
+Detect the zebra-crossing region of interest (ROI) from the Hough lines.
+Feature extraction and classification:
+Extract features from the detected ROI using LBP feature extraction technique.
+Train an SVM classifier on the extracted features.
+Apply the SVM classifier to recognize the zebra-crossing region in the detected ROI.
+
+Performance evaluation:
+
+Evaluate the performance of the proposed method and compare it with the state-of-the-art methods.

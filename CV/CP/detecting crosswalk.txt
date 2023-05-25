@@ -1,0 +1,24 @@
+detecting crosswalk (detection and recognition)
+
+
+detection
+ 
+- adaptive histogram equalization
+     -- use to increase the contrast and sharpening of image 
+     -- image converted to binary image ---using Otsu,s method
+     -- morphology and flood fill is applied to an Image to extract the largest candidate object
+     -- edge of latgest candidate object are detected by utilizing the canney operator.
+     -- elemination verticle edges (using 4 connected method and filtering the small edges using statistical threshold procedure)
+     -- drawing the hough line on detected / justified 
+- flood fill operation
+- Hough transforms
+
+
+recognition 
+
+- Uniform local binary pattern 
+   -- rotational invariant uniform local binary pattern is utilized to 
+extract the features of candidate region
+
+- SVm classifier
+    -- svm classifier is applied to detect ROI to recognised crosswalk.

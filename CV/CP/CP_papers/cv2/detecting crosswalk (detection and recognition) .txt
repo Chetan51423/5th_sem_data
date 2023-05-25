@@ -1,0 +1,18 @@
+detecting crosswalk (detection and recognition)
+
+
+detection
+ 
+- adaptive histogram equalization
+     -- use to increase the contrast and sharpening of image 
+     -- image converted to binary image ---using Otsu,s method
+     -- morphology and flood fill is applied to an Image to extract the largest candidate object
+     -- edge of latgesgt candidate object is 
+- flood fill operation
+- Hough transforms
+
+
+recognition 
+
+- Uniform local binary pattern 
+- SVm classifier

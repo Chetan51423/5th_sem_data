@@ -1,0 +1,30 @@
+cv cp paper 1
+
+color space :-
+
+HSI and RGBB color spaces
+Hue saturation color space features 
+HSV color model ---- this color model remap RGB color model into more human friendly propoetion
+
+HSV model
+ -- H ->represents the color swaps in the image
+    S ->represents the proportion of current color integrity (0 to 1)
+    V - indicates the image brightness
+
+In Hue - saturation value color space 
+    V - is mostly fixed
+    H and S - changes only
+     
+    Therefore it has better illumination flexibility whenever the conditions change. The
+    processing complication is also less, which is favorable for segmentation for traffic
+    sign detection
+
+
+
+
+Traffic Sign Recognition
+
+1) LeNet-5 CNN Model
+   - due to the drawbacks of this model they have to modify the model to extended version 
+   - they added the advantages of COnv.NN model in graphics identification.
+2) Extended LeNet-5 CNN Model
