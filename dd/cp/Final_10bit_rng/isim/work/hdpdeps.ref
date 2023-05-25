@@ -1,0 +1,10 @@
+V3 7
+FL C:/Users/cheta/Downloads/TY_2nd_sem/DD/Final_10bit_rng/Final_10bit_rng.v 2023/05/18.08:46:42 I.24
+MO work/rndm_gen \
+      FL C:/Users/cheta/Downloads/TY_2nd_sem/DD/Final_10bit_rng/Final_10bit_rng.v
+FL $XILINX/verilog/src/glbl.v 2005/11/16.16:04:44 I.24
+MO work/glbl            FL $XILINX/verilog/src/glbl.v
+FL C:/Users/cheta/Downloads/TY_2nd_sem/DD/Final_10bit_rng/rndm_tb.v 2023/05/18.08:45:21 I.24
+MO work/rndm_tb \
+      FL C:/Users/cheta/Downloads/TY_2nd_sem/DD/Final_10bit_rng/rndm_tb.v \
+      MI rndm_gen

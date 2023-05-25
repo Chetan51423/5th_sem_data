@@ -1,0 +1,40 @@
+ command line:
+   ./rndm_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  52774
+
+Thu May 18 12:00:25 2023
+
+Total Line Count = 65
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 73.6584 Meg. 
+
+ Total signals 16
+ Total nets 31
+ Total signal drivers 8
+ Total blocks 3
+ Total primitive blocks 2
+ Total processes 12
+ntrace select -o on -n /rndm_tb/clock 
+ntrace select -o on -n /rndm_tb/rnd 
+ntrace select -o on -n /rndm_tb/rnd 
+ntrace select -o on -n /rndm_tb/rnd 
+ntrace select -o on -n /rndm_tb/rnd 
+ntrace select -o on -n /rndm_tb/rnd 
+ntrace select -o on -n /rndm_tb/rnd 
+ntrace select -o on -n /rndm_tb/rnd 
+ntrace select -o on -n /rndm_tb/rnd 
+ntrace select -o on -n /rndm_tb/rnd 
+ntrace select -o on -n /rndm_tb/rnd 
+ntrace select -o on -n /rndm_tb/rnd 
+ntrace select -o on -n /rndm_tb/reset 
+ntrace select -o on -n /rndm_tb/clk 
+ntrace select -o on -n /rndm_tb/rst 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+run 100000 ns 

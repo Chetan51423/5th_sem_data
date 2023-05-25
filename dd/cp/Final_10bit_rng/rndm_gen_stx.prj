@@ -1,0 +1,2 @@
+verilog isim_temp "Final_10bit_rng.v"
+verilog isim_temp "C:/Xilinx/verilog/src/glbl.v"

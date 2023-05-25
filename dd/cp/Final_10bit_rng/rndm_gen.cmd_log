@@ -1,0 +1,4 @@
+xst -ise "C:/Users/cheta/Downloads/TY_2nd_sem/DD/Final_10bit_rng/Final_10bit_rng" -intstyle ise -ifn rndm_gen.xst -ofn rndm_gen.syr
+xst -ise "C:/Users/cheta/Downloads/TY_2nd_sem/DD/Final_10bit_rng/Final_10bit_rng" -intstyle ise -ifn rndm_gen.xst -ofn rndm_gen.syr
+xst -ise "C:/Users/cheta/Downloads/TY_2nd_sem/DD/Final_10bit_rng/Final_10bit_rng" -intstyle ise -ifn rndm_gen.xst -ofn rndm_gen.syr
+xst -ise "C:/Users/cheta/Downloads/TY_2nd_sem/DD/Final_10bit_rng/Final_10bit_rng" -intstyle ise -ifn rndm_gen.xst -ofn rndm_gen.syr
